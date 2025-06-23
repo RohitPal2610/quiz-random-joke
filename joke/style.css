@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         
+    text-align: center;   
+    font-family: Arial, sans-serif; 
+    background-image: url("image2.jpg");
+    background-size: cover;
+    background-position: center;      
+}
+
+.card {
+    color: aliceblue;
+    background-image: url("image1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+.joke-container{
+    background:linear-gradient(to left, #ccffff,#009999);
+    width:80%;
+    height:70%;
+    margin-bottom: 20px;
+    font-size: 26px;
+    box-shadow: 10px 10px 20px black; 
+    color: black;
+}
+@media(min-width:475px)
+{
+    .card {
+    width: 80%;                 
+}
+.joke-container{
+    width:80%;
+}
+}
+@media(min-width:640px)
+{
+    .card {
+    width: 80%;  
+    font-size: 22px;
+                  
+}
+.joke-container{
+    width:80%;
+    font-size: 22px;
+
+}
+}
+@media(min-width:768px)
+{
+    .card {
+    width: 80%;
+    font-size: 23px;
+                  
+}
+.joke-container{
+    width:80%;
+    font-size: 23px;
+
+}
+}
+@media(min-width:1024px)
+{
+    .card {
+    width: 80%;
+    font-size: 24px;
+                 
+}
+.joke-container{
+    width:80%;
+    font-size: 24px;
+
+}
+}
+@media(min-width:1260px)
+{
+    .card {
+    width: 80%;
+    font-size: 25px;                  
+}
+.joke-container{
+    width:80%;
+    font-size: 25px;
+}
+}
+@media(min-width:1536px)
+{
+    .card {
+    width: 80%;
+    font-size: 26px;
+                
+}
+.joke-container{
+    width:80%;
+    font-size: 26px;
+}
+}
+.btn{
+    background:linear-gradient(to left, #ccffff,#009999);
+    transform: scale(1.5);
+}
